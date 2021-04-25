@@ -34,7 +34,7 @@ func newBuildCommand() *cobra.Command {
 	mc.AddCommand(
 		newBuildREADME(),
 		newBuildChapterTwo(),
-		// newBuildMenu(),
+		newBuildMenu(),
 	)
 	return mc
 }
